@@ -1,1 +1,1 @@
-# Semaphore 2 project with secrets
+# Semaphore 2.0 project with secrets
