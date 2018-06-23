@@ -8,6 +8,7 @@ blocks:
           commands:
             - echo "Hello World!"
             - echo $SEMAPHORE_PIPELINE_ID
+            - echo $SECRET_ONE
       secrets:
         - name: mihalis-secrets
           env_var_names:
