@@ -1,0 +1,10 @@
+version: "v1.0"
+name: Using secrets in Semaphore 2.0
+semaphore_image: standard
+blocks:
+- build:
+      jobs:
+        - name: My Semaphore 2.0 job
+          commands:
+            - echo $SEMAPHORE_PIPELINE_ID
+            - echo "Hello World!"
