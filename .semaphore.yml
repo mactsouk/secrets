@@ -6,8 +6,13 @@ blocks:
       jobs:
         - name: My Semaphore 2.0 job
           commands:
-            - echo $SEMAPHORE_PIPELINE_ID
             - echo "Hello World!"
             - echo $SECRET_ONE
+            - echo $SEMAPHORE_PIPELINE_ID
       secrets:
         - name: mihalis-secrets
+          env_var_names:
+            - SECRET_ONE
+ #       - name: does-not-exist
+ #         env_var_names:
+ #           - SECRET_ONE
