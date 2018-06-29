@@ -11,5 +11,3 @@ blocks:
             - echo $SECRET_ONE
       secrets:
         - name: mihalis-secrets
-          env_var_names:
-            - SECRET_ONE
