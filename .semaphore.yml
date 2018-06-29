@@ -11,8 +11,4 @@ blocks:
             - echo $SEMAPHORE_PIPELINE_ID
       secrets:
         - name: mihalis-secrets
-          env_var_names:
-            - SECRET_ONE
- #       - name: does-not-exist
- #         env_var_names:
- #           - SECRET_ONE
+          env_var_name: []
