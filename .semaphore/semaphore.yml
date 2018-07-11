@@ -1,4 +1,4 @@
-version: "v1.0"
+version: "v1.0-beta-task"
 name: Using secrets in Semaphore 2.0
 semaphore_image: standard
 blocks:
