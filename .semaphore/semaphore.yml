@@ -2,7 +2,7 @@ version: "v1.0"
 name: Using secrets in Semaphore 2.0
 semaphore_image: standard
 blocks:
-- build:
+- task:
       jobs:
         - name: My Semaphore 2.0 job
           commands:
