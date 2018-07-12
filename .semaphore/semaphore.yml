@@ -5,14 +5,14 @@ agent:
     type: e1-standard-2
     os_image: ubuntu1804-beta
 blocks:
-- name: Using secrets
-   task:
-      jobs:
-        - name: My Semaphore 2.0 job
-          commands:
-            - echo "Hello World!"
-            - echo $SEMAPHORE_PIPELINE_ID
-            - echo $SECRET_ONE
-      secrets:
-        - name: more-mihalis-secrets
-          env_var_names: []
+  - name: Using secrets
+     task:
+        jobs:
+          - name: My Semaphore 2.0 job
+            commands:
+              - echo "Hello World!"
+              - echo $SEMAPHORE_PIPELINE_ID
+              - echo $SECRET_ONE
+        secrets:
+          - name: more-mihalis-secrets
+            env_var_names: []
