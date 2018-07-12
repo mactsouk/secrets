@@ -3,7 +3,7 @@ name: Using secrets in Semaphore 2.0
 agent:
   machine:
     type: e1-standard-2
-    os_image: ubuntu1804-beta
+    os_image: ubuntu1804
 blocks:
   - name: Using secrets
     task:
