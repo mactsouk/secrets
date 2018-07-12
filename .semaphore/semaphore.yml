@@ -6,7 +6,7 @@ agent:
     os_image: ubuntu1804-beta
 blocks:
   - name: Using secrets
-     task:
+    task:
         jobs:
           - name: My Semaphore 2.0 job
             commands:
