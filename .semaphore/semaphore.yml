@@ -15,4 +15,3 @@ blocks:
               - echo $SECRET_ONE
         secrets:
           - name: more-mihalis-secrets
-            env_var_names: []
