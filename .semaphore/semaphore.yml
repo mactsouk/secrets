@@ -16,4 +16,4 @@ blocks:
       secrets:
         - name: mihalis-secrets
         - name: more-mihalis-secrets
-        - files: "file.txt"
+        - path: "file.txt"
