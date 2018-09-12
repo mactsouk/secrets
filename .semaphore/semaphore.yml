@@ -10,9 +10,10 @@ blocks:
       jobs:
         - name: My Semaphore 2.0 job
           commands:
-            - echo "Hello World!"
+            - checkout
+            - ls -l file.txt
             - echo $SECRET_ONE
-            - echo $SEMAPHORE_PIPELINE_ID
       secrets:
         - name: mihalis-secrets
         - name: more-mihalis-secrets
+        - files: "file.txt"
