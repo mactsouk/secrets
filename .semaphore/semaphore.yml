@@ -1,11 +1,12 @@
 version: v1.0
 name: Using secrets in Semaphore 2.0
 agent:
-      machine:
-        type: e1-standard-2
-        os_image: ubuntu1804
+   machine:
+     type: e1-standard-2
+     os_image: ubuntu1804
+
 blocks:
-- build:
+- task:
       jobs:
         - name: My Semaphore 2.0 job
           commands:
