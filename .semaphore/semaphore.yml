@@ -1,6 +1,9 @@
-version: "v1.0"
+version: v1.0
 name: Using secrets in Semaphore 2.0
-semaphore_image: standard
+agent:
+      machine:
+        type: e1-standard-2
+        os_image: ubuntu1804
 blocks:
 - build:
       jobs:
