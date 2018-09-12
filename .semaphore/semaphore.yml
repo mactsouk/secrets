@@ -11,8 +11,9 @@ blocks:
         - name: file.txt
           commands:
             - checkout
-            - ls -l
-            - ls -l ~
+            - ls -l ~/file.txt
+            - cd ..
+            - cat file.txt
             - echo $SECRET_ONE
       secrets:
         - name: mihalis-secrets
