@@ -16,5 +16,5 @@ blocks:
       secrets:
         - name: mihalis-secrets
           env_var_names: []
-        - name: even-more-mihalis-secrets
+        - name: more-mihalis-secrets
           env_var_names: []
