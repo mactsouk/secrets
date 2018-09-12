@@ -1,5 +1,5 @@
 version: v1.0
-name: Using secrets in Semaphore 2.0
+name: Using files in secrets in Semaphore 2.0
 agent:
    machine:
      type: e1-standard-2
@@ -8,10 +8,10 @@ agent:
 blocks:
 - task:
       jobs:
-        - name: My Semaphore 2.0 job
+        - name: file.txt
           commands:
             - checkout
-            - ls -l file.txt
+            # - ls -l file.txt
             - echo $SECRET_ONE
       secrets:
         - name: mihalis-secrets
