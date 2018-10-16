@@ -15,6 +15,7 @@ blocks:
             - cd ..
             - cat file.txt
             - echo $SECRET_ONE
+            - sleep 360
       secrets:
         - name: mihalis-secrets
         - name: more-mihalis-secrets
